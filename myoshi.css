@@ -454,14 +454,19 @@
     border-radius: 0;
 }
 
-.profile-right > div:nth-child(3) iframe{
-    height: 51.5cqw;
-    
-}
-
 .profile-right{
     container-type: inline-size;
-    container-name: mainbar;
 }
+
+.profile-right iframe{
+    height: 56.25cqw; 
+    /*
+    change this number based on your video aspect ratio
+    this is 16 x 9, so 9 / 16 = .5625 * 100 = 56.26cqw
+
+    for 4 x 3 its 75cqw
+    */
+}
+
 
 
