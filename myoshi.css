@@ -98,6 +98,7 @@
     border-radius: 12px;
     box-shadow: inset 0px 0px 4px 2px  #00000060;
     transition: .3s ease;
+    pointer-events: none;
 }
 
 .profile-main-card:hover > .card-body::after{
