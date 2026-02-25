@@ -33,6 +33,12 @@
     padding: 0;
     max-width: none !important;
     width: 100%;
+    animation: bg-scroll 50s linear 0s infinite;
+}
+
+@keyframes bg-scroll {
+    0% {background-position-y: 0%;}
+    100% {background-position-y: -100%;}
 }
 
 .profile-top-bar, .profile-layout{
@@ -433,6 +439,29 @@
     top: -14px;
     position: relative;
     left: -14px;
+}
+
+/* profile song */
+
+.profile-right > div:nth-child(3) {
+    background: transparent;
+    border: none;
+}
+
+.profile-right > div:nth-child(3) >.card-body{
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.profile-right > div:nth-child(3) iframe{
+    height: 51.5cqw;
+    
+}
+
+.profile-right{
+    container-type: inline-size;
+    container-name: mainbar;
 }
 
 
